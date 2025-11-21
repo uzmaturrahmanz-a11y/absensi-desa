@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Absen</title>
+</head>
+<body>
+
+<button id="hadir">HADIR</button>
+<button id="pulang">PULANG</button>
+
+<script>
+document.getElementById("hadir").addEventListener("click", function(){
+  alert("Anda menekan HADIR");
+});
+
+document.getElementById("pulang").addEventListener("click", function(){
+  alert("Anda menekan PULANG");
+});
+</script>
+
+</body>
+</html>
